@@ -1,0 +1,173 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?9647021807615a2dd3d171fe01afd68f") format("truetype"),
+url("./flaticon.woff?9647021807615a2dd3d171fe01afd68f") format("woff"),
+url("./flaticon.woff2?9647021807615a2dd3d171fe01afd68f") format("woff2"),
+url("./flaticon.eot?9647021807615a2dd3d171fe01afd68f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?9647021807615a2dd3d171fe01afd68f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "folder": "\f101",
+    "heart": "\f102",
+    "chat-comment-oval-speech-bubble-with-text-lines": "\f103",
+    "users": "\f104",
+    "pen-tool": "\f105",
+    "coffee-cup": "\f106",
+    "tray": "\f107",
+    "fiverr": "\f108",
+    "youtube": "\f109",
+    "globe": "\f10a",
+    "long-arrow-pointing-to-the-right": "\f10b",
+    "long-arrow-pointing-to-left": "\f10c",
+    "url": "\f10d",
+    "star": "\f10e",
+    "user": "\f10f",
+    "thumbs-up-hand-symbol": "\f110",
+    "speech-bubbles-comment-option": "\f111",
+    "share": "\f112",
+    "left-arrow": "\f113",
+    "right-arrow": "\f114",
+    "pin": "\f115",
+    "envelope": "\f116",
+    "globe-1": "\f117",
+    "facebook": "\f118",
+    "twitter": "\f119",
+    "pinterest": "\f11a",
+    "behance": "\f11b",
+    "linkedin": "\f11c",
+    "send": "\f11d",
+    "top": "\f11e",
+    "freepik-logo": "\f11f",
+    "dribbble": "\f120",
+    "envato": "\f121",
+    "next": "\f122",
+    "triangular-black-right-arrow": "\f123",
+    "reply-all": "\f124",
+    "calendar": "\f125",
+);
+
+.flaticon-folder:before {
+    content: map-get($flaticon-map, "folder");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-chat-comment-oval-speech-bubble-with-text-lines:before {
+    content: map-get($flaticon-map, "chat-comment-oval-speech-bubble-with-text-lines");
+}
+.flaticon-users:before {
+    content: map-get($flaticon-map, "users");
+}
+.flaticon-pen-tool:before {
+    content: map-get($flaticon-map, "pen-tool");
+}
+.flaticon-coffee-cup:before {
+    content: map-get($flaticon-map, "coffee-cup");
+}
+.flaticon-tray:before {
+    content: map-get($flaticon-map, "tray");
+}
+.flaticon-fiverr:before {
+    content: map-get($flaticon-map, "fiverr");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}
+.flaticon-long-arrow-pointing-to-the-right:before {
+    content: map-get($flaticon-map, "long-arrow-pointing-to-the-right");
+}
+.flaticon-long-arrow-pointing-to-left:before {
+    content: map-get($flaticon-map, "long-arrow-pointing-to-left");
+}
+.flaticon-url:before {
+    content: map-get($flaticon-map, "url");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-thumbs-up-hand-symbol:before {
+    content: map-get($flaticon-map, "thumbs-up-hand-symbol");
+}
+.flaticon-speech-bubbles-comment-option:before {
+    content: map-get($flaticon-map, "speech-bubbles-comment-option");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-globe-1:before {
+    content: map-get($flaticon-map, "globe-1");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-pinterest:before {
+    content: map-get($flaticon-map, "pinterest");
+}
+.flaticon-behance:before {
+    content: map-get($flaticon-map, "behance");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.flaticon-top:before {
+    content: map-get($flaticon-map, "top");
+}
+.flaticon-freepik-logo:before {
+    content: map-get($flaticon-map, "freepik-logo");
+}
+.flaticon-dribbble:before {
+    content: map-get($flaticon-map, "dribbble");
+}
+.flaticon-envato:before {
+    content: map-get($flaticon-map, "envato");
+}
+.flaticon-next:before {
+    content: map-get($flaticon-map, "next");
+}
+.flaticon-triangular-black-right-arrow:before {
+    content: map-get($flaticon-map, "triangular-black-right-arrow");
+}
+.flaticon-reply-all:before {
+    content: map-get($flaticon-map, "reply-all");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
